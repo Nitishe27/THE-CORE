@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin Login</title>
+	<link rel="stylesheet" href="homepage.css">
+	<link rel="stylesheet" type="text/css" href="LoginStyle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<script>
+	function Adminlogin()
+		{
+			let admin=document.getElementById("adminv").value;
+			let adminpass=document.getElementById("adminpass").value;
+			if((admin=="_nitishe_")&&(adminpass=="_niti_"))
+				{
+					
+					alert("Welcome NITISHE!");
+					return true;
+				}
+			{
+				alert("Please enter valid Admin details !");
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+		<img src="Core logo/Picture1.png" width="125px">
+		</div>
+		
+	<ul class="navmenu">
+		<li><a href="HomePage(1).html">home</a></li>
+		<li><a href="product.html">Product</a></li>
+		<li><a href="Aboutpage.html">About us</a></li>
+		<li><a href="#contact">Contact</a></li>
+		</ul>
+		
+		<div class="nav-icon">
+		<a href="Userlogin.html"><i class="bx bx-user"></i></a>
+		<a href="addtocart.html"><i class="bx bx-cart"></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+</header>
+	<section class="main-home">
+	<div class="main-text">
+	<p><h1>&nbsp;Admin login</h1></p>
+
+    <table width="350" height="180" border="0" align="center">
+    <tbody>
+      <tr>
+        <td>
+        <input type="text" name="textadmin" id="adminv" placeholder="Admin Username"></td>
+      </tr>
+      <tr>
+		   <td>
+         <input type="password" name="textadminpass" id="adminpass" placeholder="Admin Password"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" name="submit" id="submit" value="Login" style="width:350px"  onClick="Adminlogin()" ></td>
+      </tr>
+    </tbody>
+	</table>
+	</div>
+	</section>
+	
+	
+	<div class="contact" id="contact">
+	<div class="contact-info">
+		<div class="first-info">
+			<div class="logo">
+		<img src="Core logo/Picture1.png">
+			</div>
+			<p>29 Visaka Road,Duplication Rd,<br>Sri Lanka</p>
+			<p>07712345678</p>
+			<p>nitisheprem@gmail.com</p>
+			
+			<div class="social-icon">
+			<a href="#"><i class="bx bxl-facebook-circle" ></i></a>
+			<a href="#"><i class="bx bxl-twitter"></i></a>
+			<a href="#"><i class="bx bxl-instagram"></i></a>
+			<a href="#"><i class="bx bxl-youtube"></i></a>
+			<a href="#"><i class="bx bxl-linkedin-square" ></i></a>
+			</div>
+		</div>
+		
+		<div class="second-info">
+		<h4>Support</h4>
+		<p>Contact us</p>
+		<p>About page</p>
+		<p>Size Guide</p>
+		<p>Shopping & Returns</p>
+		<p>Privacy</p>
+		</div>
+		
+		<div class="third-info">
+		<h4>Shop</h4>
+		    <p>Men's Shoping</p>	
+			<p>Women's Shoping</p>
+			<p>Discount</p>
+			</div>
+		
+		<div class="fourth">
+		<h4>Company</h4>
+			<p>About</p>
+			<p>Blog</p>
+			<p>Affiliate</p>
+			<p>login</p>
+		</div>
+		
+		<div class="five">
+		<h4>Subscribe</h4>
+			<p>Receive Updates,Hot Deals,Discounts Sent Straight In Your Inbox Daily</p>
+		</div>
+		</div>
+	</div>
+	
+	<div class="end-text">
+	<p>Copyright &copy; @2022. All Rights Reserved. Designed by Nitishe Premnath.</p>
+	</div>
+	
+	<script src="java.js"></script>
+</body>
+</html>
